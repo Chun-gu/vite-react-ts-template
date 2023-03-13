@@ -1,1 +1,1 @@
-export { default as CompA } from './CompA';
+export {};
