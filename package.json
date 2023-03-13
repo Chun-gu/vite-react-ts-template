@@ -1,10 +1,10 @@
 {
   "name": "vite-react-ts-test",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prepare":"husky install && git config commit.template .gitmessage.txt",
+    "prepare": "husky install && git config commit.template .gitmessage.txt",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
